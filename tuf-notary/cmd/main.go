@@ -23,7 +23,7 @@ Commands:
 	cmdArgs := args["<args>"].([]string)
 
 	if cmd == "help" {
-		if len(cmdArgs) == 0 { // 'tuf-notary help'
+if len(cmdArgs) == 0 { // 'tuf-notary help'
 			fmt.Println(usage)
 			return
 		} else { // `tuf-notary help <command>`
